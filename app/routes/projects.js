@@ -16,6 +16,6 @@ export default Ember.Route.extend({
       id: 3,
       name: "Rantly",
       description: "This is like Twitter.",
-    }]
+    }];
   }
 });

@@ -1,0 +1,30 @@
+<div class="main">
+    <h2>Welcome To The Projects.</h2>
+
+    {{#each project in model}}
+    <div class="job">
+      <h3>{{#link-to 'project' project}}
+        {{project.name}}
+        {{/link-to}}
+      </h3>
+      <h4>{{project.description}}</h4>
+    {{/each}}
+    </div>
+
+    <div class="main">
+    <div class="video">
+      <iframe width="560" height="315" src="//www.youtube.com/watch?v=rnT7nYbCSvM" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="test">
+      <label>Name:</label>
+      {{input type="text" value=name placeholder="Enter your name"}}
+    </div>
+    <div class="textz">
+      <h3>My name is {{name}} and I'm on this website!</h3>
+    </div>
+  </div>
+</div>
+
+
+    {{outlet}}

@@ -1,3 +1,122 @@
+/* GLOBAL */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
 html, body {
+  /* margin: 1px; */
+}
+
+h2 {
+  text-align: center;
+  font-style: strong;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  /*   color: red;  */
+}
+
+h3 {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+h4 {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-style: oblique;
+}
+
+h5 {
+  font-size: 26px;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+a {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: blue;
+}
+
+.header {
+  text-align: center;
+  background: #F1ECEE;
   margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px;
+}
+
+.container {
+  width: 100%;
+  background: #B0B9A9;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px;
+  /* background-color: rgba(181, 200, 188, 0.92); #213A37 #AD9E9B;*/
+  /* background:-webkit-gradient(linear, 80% 20%, 10% 89%, from(#00ECE9), to(#0040C1)) */
+}
+
+/* NAV MAIN */
+
+.navtop {
+  margin: 20px;
+  border-radius: 5px 5px 5px;
+}
+
+.navfooter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #F1ECEE;
+  margin: 20px;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  border-radius: 5px 5px 5px;
+}
+
+
+/* INDEX MAIN */
+
+.main {
+  background: #F1ECEE;
+  border: solid 1px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px 5px 5px;
+}
+
+/* PROJECTS */
+
+ .video {
+  text-align: center;
+  background: red;
+}
+
+/* RESUME */
+
+.job {
+  background: white;
+  border: solid black 1px;
+  margin: 20px;
+  border-radius: 5px 5px 5px;
+  padding: 5px;
+}
+
+.test {
+  text-align: center;
+  background: green;
+}
+
+.textz {
+  text-align: center;
+  font-size: 15px;
+  background: blue;
 }

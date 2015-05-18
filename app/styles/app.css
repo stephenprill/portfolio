@@ -15,9 +15,62 @@
   zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-html, body {
+html {
+
+}
+
+
+body {
+  background-image: url(/images/birdwoodpanel.jpg);
+/*   height: 100%; */
+/*   background-size: cover; */
+/*   background-repeat: no-repeat; */
   /* margin: 1px; */
 }
+
+
+/* GRID */
+
+.columns:before,
+.columns:after {
+ content:"";
+ display:table;
+}
+.columns:after {
+ clear:both;
+}
+.columns {
+ zoom:1;
+ overflow: hidden;
+}
+
+.column {
+ float: left;
+ white-space: nowrap;
+}
+
+.two.columns .column, .column-two {
+ width: 50%;
+}
+
+.columns.three .column, .column-three {
+ width: 33.33333%;
+}
+
+.four.columns .column, .column.column-four {
+ width: 25%;
+}
+
+/*  Positional */
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 
 h2 {
   text-align: center;
@@ -43,6 +96,7 @@ h5 {
 a {
   font-family: Helvetica, Verdana, Arial, sans-serif;
   color: blue;
+  display: inline-block;
 }
 
 .header {
@@ -58,8 +112,8 @@ a {
   background: #B0B9A9;
   border: 1px solid black;
   border-radius: 5px 5px 5px;
-  /* background-color: rgba(181, 200, 188, 0.92); #213A37 #AD9E9B;*/
-  /* background:-webkit-gradient(linear, 80% 20%, 10% 89%, from(#00ECE9), to(#0040C1)) */
+/*   background-color: rgba(181, 200, 188, 0.92); #213A37 #AD9E9B;
+ */  /* background:-webkit-gradient(linear, 80% 20%, 10% 89%, from(#00ECE9), to(#0040C1)) */
 }
 
 /* NAV MAIN */
@@ -67,6 +121,14 @@ a {
 .navtop {
   margin: 20px;
   border-radius: 5px 5px 5px;
+  background: red;
+
+}
+
+.nav-top-menu width: {
+  display: inline-block;
+  text-align: center;
+  background: blue;
 }
 
 .navfooter {
@@ -82,14 +144,13 @@ a {
   border-radius: 5px 5px 5px;
 }
 
-
 /* INDEX MAIN */
 
 .main {
   background: #F1ECEE;
   border: solid 1px;
-  padding: 20px;
-  margin: 20px;
+  padding: 200px;
+  margin: 200px;
   border-radius: 5px 5px 5px;
 }
 

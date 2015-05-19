@@ -27,8 +27,18 @@ html {
 
 body {
   /* background-image: url(/images/birdwoodpanel.jpg); */
-   height: 100%;
-   max-width: 1920px;
+
+
+   background-image: url(/images/mansiontrees.jpg);
+/*    background-image: url(/images/birdwoodpanel.jpg);
+ */
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 /*   background-size: cover; */
 /*   background-repeat: no-repeat; */
   /* margin: 1px; */
@@ -184,7 +194,7 @@ a {
 /* INDEX MAIN */
 
 .main {
-  background: #F1ECEE;
+  height: auto;
   border: solid 1px;
   padding: 20px;
   margin-left: 80px;
@@ -193,10 +203,10 @@ a {
   color: white;
   /* border-radius: 5px 5px 5px; */
   /* background-image: url(/images/birdwoodpanel.jpg); */
-  background-image: url(/images/mansiontrees.jpg);
-  background-image: no-repeat;
+
+  /* background-image: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 
 }
 
@@ -204,7 +214,8 @@ a {
 
  .video {
   text-align: center;
-  background: orang4e;
+  background: orange;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .project-header {
@@ -220,6 +231,8 @@ a {
   white-space: nowrap;
   vertical-align: middle;
   padding: 0;
+  /* text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black; */
+
 }
 
 /* RESUME */

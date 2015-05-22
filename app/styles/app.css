@@ -1,73 +1,32 @@
-/* GLOBAL */
+/* ASSETS */
 
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
 
+/* GRID */
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-.clearfix {
-  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
-}
-
-html {
-  height: 100%;
-}
-
-
-body {
-/* background-image: url(/images/birdwoodpanel.jpg); */
-   background-image: url(/images/mansiontrees.jpg);
-/* background-image: url(/images/birdwoodpanel.jpg); */
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-/*   background-size: cover; */
-/*   background-repeat: no-repeat; */
-  /* margin: 1px; */
-}
-
-ul {
-  vertical-align: middle;
-  display: inline;
-  float: right;
-  list-style-type: none;
-}
-
-li {
-  padding: 25px;
-  text-decoration: none;
-  letter-spacing: .07em;
-}
-
-
-/* GRID */
 
 .columns:before,
 .columns:after {
  content:"";
  display:table;
 }
+
 .columns:after {
  clear:both;
 }
+
 .columns {
  zoom:1;
  overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 .column {
@@ -87,23 +46,46 @@ li {
  width: 25%;
 }
 
-/*  Positional */
-
-.pull-left {
-  float: left;
+/* .box-1 {
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  overflow: auto;
+  background-color: blue;
 }
 
-.pull-right {
-  float: right;
+.box-2 {
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  overflow: auto;
+  background-color: green;
+} */
+
+/* MAIN */
+
+html {
+  height: 100%;
 }
 
 
-h2 {
+body {
+/* background-image: url(/images/birdwoodpanel.jpg); */
+   background-image: url(/images/mansiontrees.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+/*   background-size: cover; */
+/*   background-repeat: no-repeat; */
+/*   margin: 1px; */
+}
+
+/* h2 {
   text-align: center;
   font-style: strong;
-/*   font-family: Helvetica, Verdana, Arial, sans-serif; */
-  /*   color: red;  */
-}
+} */
 
 h3 {
   font-family: Helvetica, Verdana, Arial, sans-serif;
@@ -114,71 +96,82 @@ h4 {
   font-style: oblique;
 }
 
-h5 {
+/* h5 {
   font-size: 26px;
   font-family: Helvetica, Verdana, Arial, sans-serif;
-}
+} */
 
 a {
-/*   font-family: Helvetica, Verdana, Arial, sans-serif; */
   display: inline-block;
   text-decoration: none;
   color: white;
 }
 
-
-/* .header {
-  text-align: center;
-  background: #F1ECEE;
-  margin: 20px;
-  border: 1px solid black;
-  border-radius: 5px 5px 5px;
-} */
-
- .container {
-/*   width: 100%; */
-  margin-left: 50px;
-  margin-right: 50px;
-  /* background: #B0B9A9; */
-  border: 1px solid black;
-  /* border-radius: 5px 5px 5px; */
-  /* background-color: rgba(181, 200, 188, 0.92); #213A37 #AD9E9B;  background:-webkit-gradient(linear, 80% 20%, 10% 89%, from(#00ECE9), to(#0040C1)) */
+ul {
+  /* vertical-align: middle; */
+  /* display: inline; */
+/*   float: right; */
+  list-style-type: none;
 }
+
+li {
+  /* padding: 15px; */
+  display: inline-block;
+  text-decoration: none;
+  /* letter-spacing: .07em; */
+}
+
+
+/*  POSITIONAL - MIGHT NOT NEED  */
+
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 
 /* NAV MAIN */
 
+
+/* .navtop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
+} */
+
 .navtop-name {
   font-family: 'Playfair Display', sans-serif;
-  display: inline-block;
   font-size: 35px;
-  vertical-align: middle;
   letter-spacing: .07em;
   color: white;
+  float: left;
+  margin-left: 80px;
+  height: 100%;
+  text-align: left;
+  line-height: 50px;
   /* text-shadow: -1px 0 grey, 0 2px grey, 2px 0 grey, 0 -1px grey; */
 
 }
 
 .navtop-menu-links {
-  float: right;
-  margin-top: 35px;
-  display: inline-block;
   font-family: 'Playfair Display', sans-serif;
   font-size: 35px;
-}
-
-.navtop {
-  margin-left: 80px;
   margin-right: 80px;
-  padding: 20px;
-  /* border-radius: 5px 5px 5px; */
-  /* background: red; */
-}
+  letter-spacing: .07em;
+  float: right;
+  height: 100%;
+  text-align: right;
+  line-height: 50px;
+/*   display: inline-block;*/
 
-/* .nav-top-menu width: {
-  display: inline-block;
-  text-align: center;
-  background: blue;
-} */
+}
 
 .navfooter {
   margin-left: 80px;
@@ -189,37 +182,28 @@ a {
   border-right: solid 1px black;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
-  /* border-radius: 5px 5px 5px; */
 }
 
 /* INDEX MAIN */
 
 .main {
   height: auto;
-/*   border: solid 1px; */
   padding: 20px;
+  margin-top: 60px;
   margin-left: 80px;
   margin-right: 80px;
   font-family: 'Raleway Light', sans-serif;
   color: white;
   background: rgba(0, 0, 0, 0.2);
+}
 
-  /* border-radius: 5px 5px 5px; */
-  /* background-image: url(/images/birdwoodpanel.jpg); */
-
-  /* background-image: no-repeat;
-    background-position: center;
-    background-size: cover; */
-
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid black;
 }
 
 /* PROJECTS */
-
- .video {
-  text-align: center;
-
-  background: rgba(0, 0, 0, 0.5);
-}
 
 .project-header {
   font: 170px helvetica;
@@ -255,6 +239,51 @@ a {
   background: rgba(0, 0, 0, 0.4);
 }
 
+
+
+/* OLD CODE FOR REF UNTIL DONE (DEL POST) */
+
+/*
+
+.video {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  text-align: center;
+  background: #F1ECEE;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px;
+}
+
+.nav-top-menu width: {
+  display: inline-block;
+  text-align: center;
+  background: blue;
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+  border-radius: 5px 5px 5px;
+  background-color: rgba(181, 200, 188, 0.92); #213A37 #AD9E9B;  background:-webkit-gradient(linear, 80% 20%, 10% 89%, from(#00ECE9), to(#0040C1))
+  background: #B0B9A9;
+  border: 1px solid black;
+}
+
+  border: solid 1px;
+  border-radius: 5px 5px 5px;
+  background-image: url(/images/birdwoodpanel.jpg);
+  background-image: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px 5px 5px;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+
+
 .test {
   text-align: center;
   background: green;
@@ -265,3 +294,6 @@ a {
   font-size: 15px;
   background: blue;
 }
+
+
+*/

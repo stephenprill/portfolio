@@ -26,12 +26,9 @@ html {
 
 
 body {
-  /* background-image: url(/images/birdwoodpanel.jpg); */
-
-
+/* background-image: url(/images/birdwoodpanel.jpg); */
    background-image: url(/images/mansiontrees.jpg);
-/*    background-image: url(/images/birdwoodpanel.jpg);
- */
+/* background-image: url(/images/birdwoodpanel.jpg); */
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: fixed;
@@ -126,7 +123,9 @@ a {
 /*   font-family: Helvetica, Verdana, Arial, sans-serif; */
   display: inline-block;
   text-decoration: none;
+  color: white;
 }
+
 
 /* .header {
   text-align: center;
@@ -151,9 +150,12 @@ a {
 .navtop-name {
   font-family: 'Playfair Display', sans-serif;
   display: inline-block;
-  font-size: 50px;
+  font-size: 35px;
   vertical-align: middle;
   letter-spacing: .07em;
+  color: white;
+  /* text-shadow: -1px 0 grey, 0 2px grey, 2px 0 grey, 0 -1px grey; */
+
 }
 
 .navtop-menu-links {
@@ -181,7 +183,6 @@ a {
 .navfooter {
   margin-left: 80px;
   margin-right: 80px;
-
   text-align: center;
   background: #F1ECEE;
   border-left: solid 1px black;
@@ -195,18 +196,20 @@ a {
 
 .main {
   height: auto;
-  border: solid 1px;
+/*   border: solid 1px; */
   padding: 20px;
   margin-left: 80px;
   margin-right: 80px;
   font-family: 'Raleway Light', sans-serif;
   color: white;
+  background: rgba(0, 0, 0, 0.2);
+
   /* border-radius: 5px 5px 5px; */
   /* background-image: url(/images/birdwoodpanel.jpg); */
 
   /* background-image: no-repeat;
-  background-position: center;
-  background-size: cover; */
+    background-position: center;
+    background-size: cover; */
 
 }
 
@@ -214,7 +217,7 @@ a {
 
  .video {
   text-align: center;
-  background: orange;
+
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -232,7 +235,13 @@ a {
   vertical-align: middle;
   padding: 0;
   /* text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black; */
+}
 
+.project-title {
+  font: 170px helvetica;
+  line-height: 180px;
+  height: 190px;
+  font-weight: 700;
 }
 
 /* RESUME */
@@ -243,6 +252,7 @@ a {
   margin: 20px;
   border-radius: 5px 5px 5px;
   padding: 5px;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .test {

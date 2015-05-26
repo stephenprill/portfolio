@@ -77,6 +77,10 @@ body {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+
+
+   margin: 0;
+   line-height: 1.5;
 /*   background-size: cover; */
 /*   background-repeat: no-repeat; */
 /*   margin: 1px; */
@@ -111,7 +115,9 @@ ul {
   /* vertical-align: middle; */
   /* display: inline; */
 /*   float: right; */
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -137,7 +143,7 @@ li {
 /* NAV MAIN */
 
 
-/* .navtop {
+/*.navtop {
   position: fixed;
   top: 0;
   left: 0;
@@ -162,13 +168,12 @@ li {
 
 .navtop-menu-links {
   font-family: 'Playfair Display', sans-serif;
-  font-size: 35px;
-  margin-right: 80px;
+  font-size: 25px;
   letter-spacing: .07em;
+  margin-right: 80px;
+  margin-top: 12px;
   float: right;
-  height: 100%;
-  text-align: right;
-  line-height: 50px;
+
 /*   display: inline-block;*/
 
 }
@@ -177,7 +182,7 @@ li {
   margin-left: 80px;
   margin-right: 80px;
   text-align: center;
-  background: #F1ECEE;
+  /* background: #F1ECEE; */
   border-left: solid 1px black;
   border-right: solid 1px black;
   border-top: solid 1px black;

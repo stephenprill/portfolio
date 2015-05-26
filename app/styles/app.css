@@ -182,11 +182,14 @@ li {
   margin-left: 80px;
   margin-right: 80px;
   text-align: center;
+  letter-spacing: 8em;
+  padding-top: 20px;
+
   /* background: #F1ECEE; */
-  border-left: solid 1px black;
-  border-right: solid 1px black;
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
+/*   border-left: solid 1px black;
+border-right: solid 1px black;
+border-top: solid 1px black;
+border-bottom: solid 1px black; */
 }
 
 /* INDEX MAIN */

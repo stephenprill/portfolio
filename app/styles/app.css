@@ -69,7 +69,7 @@ html {
 
 body {
 /* background-image: url(/images/birdwoodpanel.jpg); */
-   background-image: url(/images/mansiontrees.jpg);
+   background-image: url(/backgrounds/mansiontrees.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: fixed;
@@ -173,7 +173,6 @@ li {
   margin-right: 80px;
   margin-top: 12px;
   float: right;
-
 /*   display: inline-block;*/
 
 }
@@ -231,18 +230,24 @@ border-bottom: solid 1px black; */
 
 .project-title {
   font: 170px helvetica;
-  line-height: 180px;
-  height: 190px;
+  line-height: 100px;
+  height: auto;
   font-weight: 700;
+}
+
+.project-picture {
+   max-width: 100%;
+   height: auto;
+/*    width: auto9; ie8
+margin: auto; */
 }
 
 /* RESUME */
 
 .job {
-  background: white;
-  border: solid black 1px;
-  margin: 20px;
-  border-radius: 5px 5px 5px;
+  border: solid black 8px;
+  margin: auto;
+/*   border-radius: 5px 5px 5px; */
   padding: 5px;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -302,6 +307,16 @@ border-bottom: solid 1px black; */
   font-size: 15px;
   background: blue;
 }
+
+.job {
+  background: white;
+  border: solid black 1px;
+  margin: 20px;
+  border-radius: 5px 5px 5px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
 
 
 */

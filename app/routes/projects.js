@@ -12,7 +12,7 @@ export default Ember.Route.extend({
     {
       id: 2,
       name: "Local Notes",
-      description: "Best place to take notes without a internet connection",
+      description: "Best place to take notes without internet connection",
       images: 'pictures/localnotes.png',
       url: 'https://localnotes.herokuapp.com/notes',
     },

@@ -2,17 +2,19 @@
     <!-- <div class="project-title">
       Welcome To The Projects
     </div> -->
+
       {{#each project in model}}
         <div class="job">
           <div class="project-title">
             {{#link-to 'project' project}}
               {{project.name}}
+
             {{/link-to}}
           </div>
 
           <h4>{{project.description}}</h4>
 
-          <a {{bind-attr href=project.url}}>
+          <a {{bind-attr href=project.url}} target="_blank">
             <img class="project-picture"{{bind-attr src=project.images}}/>
           </a>
       {{/each}}

@@ -238,13 +238,15 @@ border-bottom: solid 1px black; */
 .project-picture {
    max-width: 100%;
    height: auto;
-/*    width: auto9; ie8
-margin: auto; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* RESUME */
 
 .job {
+  min-width: auto;
   border: solid black 8px;
   margin: auto;
 /*   border-radius: 5px 5px 5px; */

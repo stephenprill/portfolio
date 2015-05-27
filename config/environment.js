@@ -18,7 +18,7 @@ module.exports = function(environment) {
     'font-src': "'self' http://fonts.gstatic.com", // Allow fonts to be loaded from http://fonts.gstatic.com
     'connect-src': "'self' " + process.env.ADAPTER_URL,
     'img-src': "'self'",
-    'style-src':  "'self' http://fonts.googleapis.com/css?family=Raleway:400,800,900 http://fonts.googleapis.com/css?family=Playfair+Display https://fonts.gstatic.com",
+    'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com", // Allow inline styles and loaded CSS from http://fonts.googleapis.com
     'media-src': "'self'"
   },
     APP: {

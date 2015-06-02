@@ -1,24 +1,18 @@
-  <div class="main">
-    <!-- <div class="project-title">
-      Welcome To The Projects
-    </div> -->
+<div class="main">
 
-      {{#each project in model}}
-        <div class="job">
-          <div class="project-title">
-            {{#link-to 'project' project}}
-              {{project.name}}
+  <div class="project-container">
+    <div class="project-title">
 
-            {{/link-to}}
-          </div>
+    {{#each project in model}}
+      <a {{bind-attr href=project.url}} target="_blank">
+          <img class="project-picture"{{bind-attr src=project.images}}/>
+      </a>
+    {{/each}}
 
-          <h4>{{project.description}}</h4>
-
-          <a {{bind-attr href=project.url}} target="_blank">
-            <img class="project-picture"{{bind-attr src=project.images}}/>
-          </a>
-      {{/each}}
     </div>
   </div>
+
+</div>
+
 
 {{outlet}}

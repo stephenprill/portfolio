@@ -165,36 +165,6 @@ li {
   padding-bottom: 65px;
 }
 
-/*
-.home-title-title {
-  font-family: 'Playfair Display', sans-serif;
-  font: 100px 'Playfair Display';
-  text-align: center;
-  line-height: 280px;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
-
-  text-indent: -50px;
-}
-
-*/
-
-/*
-
-.home{
-  min-width: 100%;
-  background-image: url(/backgrounds/mansionyard.png);
-  background-image: url(/backgrounds/pedals.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-
-*/
-
-
 
 /* PROJECTS */
 
@@ -247,10 +217,9 @@ li {
   text-align: center;
   max-width: 100%;
   margin-right: auto;
-/*border: solid black 2px;*/
- margin-top: 75px;
+  /*border: solid black 2px;*/
+  margin-top: 75px;
   padding: 5px;
   margin-left: auto;
-/*   background: rgba(0, 0, 0, 0.5);
- */
+  /*background: rgba(0, 0, 0, 0.5);*/
 }

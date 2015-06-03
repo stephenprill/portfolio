@@ -1,7 +1,8 @@
-# Portfolio-prill
+# Portfolio
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Portfolio for Stephen Prill, the First of His Name, King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm.
+
+[http://www.stephenprill.com](http://www.stephenprill.com)
 
 ## Prerequisites
 
@@ -47,4 +48,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-

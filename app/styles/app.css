@@ -127,7 +127,7 @@ li {
 
 .main {
   height: auto;
-  max-width: 100%;
+  max-width: 1307px;
   padding: 20px;
   margin-top: 60px;
   margin-left: 80px;
@@ -158,7 +158,7 @@ li {
   max-width: 1307px;
 }
 
-.project-title {
+/* .project-title {
   font: 170px helvetica;
   line-height: 180px;
   max-width: 100%;
@@ -166,7 +166,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
-}
+} */
 
 .project-picture {
   max-width: 100%;
@@ -174,7 +174,9 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: solid rgba(0, 0, 0, 0.4) 1px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-style: solid;
   opacity: 0.92;
 }
 
@@ -219,15 +221,21 @@ li {
 
 /* RESUME */
 
-.job {
-  text-align: center;
-  max-width: 1307px;
+
+
+.resume {
+  max-width: 100%;
+  height: auto;
   margin-right: auto;
-  margin-top: 75px;
   padding: 5px;
   margin-left: auto;
   opacity: 0.9997;
 
   /*background: rgba(0, 0, 0, 0.5);*/
   /*border: solid black 2px;*/
+}
+
+.resume-image {
+  max-width: 100%;
+  height: auto;
 }

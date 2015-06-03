@@ -53,18 +53,16 @@ html {
 
 
 body {
-/* background-image: url(/images/birdwoodpanel.jpg); */
-   background-image: url(/backgrounds/mansiontrees.jpg);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+ /* background-image: url(/backgrounds/birdwoodpanel.jpg); */
+  background-image: url(/backgrounds/mansiontrees.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-
 
 a {
   display: inline-block;
@@ -100,32 +98,19 @@ li {
 
 
 .navtop {
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
+  z-index: 9999;
   width: 100%;
-  height: 0;
-}
-
-.navtop-name {
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 35px;
-  letter-spacing: .07em;
-  color: white;
-  float: left;
-  margin-left: 80px;
-  height: 100%;
-  text-align: left;
-  line-height: 50px;
-  /* text-shadow: -1px 0 grey, 0 2px grey, 2px 0 grey, 0 -1px grey; */
-
+  height: 50px;
 }
 
 .navtop-menu-links {
   font-family: 'Playfair Display';
   font-size: 25px;
   letter-spacing: .25em;
-  margin-right: 80px;
+  margin-right: 98px;
   margin-top: 12px;
   float: right;
 }
@@ -160,6 +145,7 @@ li {
 }
 
 .home-title-title {
+  font-family: 'Playfair Display', helvetica;
   text-align: center;
   font-size: 4.0em;
   padding-bottom: 65px;
@@ -168,25 +154,9 @@ li {
 
 /* PROJECTS */
 
-/* .project-header {
-  font: 170px helvetica;
-  line-height: 180px;
-  height: 190px;
-  font-weight: 700;
-  color: #000;
-  letter-spacing: -.04em;
-  position: absolute;
-  top: 50%;
-  left: -3.75%;
-  white-space: nowrap;
-  vertical-align: middle;
-  padding: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
-  @import url(http://fonts.googleapis.com/css?family=Nunito);
-} */
+.project-container {
+  max-width: 1307px;
+}
 
 .project-title {
   font: 170px helvetica;
@@ -196,20 +166,54 @@ li {
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
-  /* text-indent: -50px; */
 }
 
 .project-picture {
-   max-width: 100%;
-   height: auto;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   border: solid white 1px;
-   opacity: 0.75;
-
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid rgba(0, 0, 0, 0.4) 1px;
+  opacity: 0.92;
 }
 
+.project-picture:hover {
+  border: solid rgba(0, 0, 0, 0.8) 1.5px;
+}
+
+.project-description {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', helvetica;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.project-icons {
+  margin-left: 40px;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 0.9em;
+}
+
+.fa-laptop:hover {
+  color: gray;
+}
+
+.fa-github:hover {
+  color: gray;
+}
+
+.project-space {
+  padding-top: 10px;
+}
 
 /* RESUME */
 
@@ -217,9 +221,11 @@ li {
   text-align: center;
   max-width: 100%;
   margin-right: auto;
-  /*border: solid black 2px;*/
   margin-top: 75px;
   padding: 5px;
   margin-left: auto;
+  opacity: 0.9997;
+
   /*background: rgba(0, 0, 0, 0.5);*/
+  /*border: solid black 2px;*/
 }

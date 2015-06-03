@@ -1,15 +1,37 @@
 <div class="main">
 
   <div class="project-container">
-    <div class="project-title">
 
     {{#each project in model}}
       <a {{bind-attr href=project.url}} target="_blank">
           <img class="project-picture"{{bind-attr src=project.images}}/>
       </a>
+
+      <div class="project-space">
+
+
+
+      <div class="project-description">
+        {{project.description}}
+
+        <br><br>
+
+        <div class="project-icons">
+            <a {{bind-attr href=project.url}} target="_blank">
+              <i class="fa fa-laptop fa-2x"></i>
+            </a>
+          <a {{bind-attr href=project.github}} target="_blank">
+            <i class="fa fa-github fa-2x"></i>
+          </a>
+        </div>
+      </div>
+
+
+      </div>
+      <br><br>
     {{/each}}
 
-    </div>
+
   </div>
 
 </div>

@@ -179,7 +179,9 @@ li {
 }
 
 .project-picture:hover {
-  border: solid rgba(0, 0, 0, 0.8) 1px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.8);
+  border-style: solid;
 }
 
 .project-description {
@@ -219,7 +221,7 @@ li {
 
 .job {
   text-align: center;
-  max-width: 100%;
+  max-width: 1307px;
   margin-right: auto;
   margin-top: 75px;
   padding: 5px;

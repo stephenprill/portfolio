@@ -33,6 +33,14 @@ export default Ember.Route.extend({
       images: 'pictures/rantly_small.png',
       url: 'https://rantly-prill.herokuapp.com',
       github: 'https://github.com/stephenprill/rantly'
+    },
+    {
+      id: 5,
+      name: "Teenage Mutant Ninja Mardown",
+      description: "Teenage Mutant Ninja Markdown is an Ember application that live markdown editor that renders HTML in real-time built in Ember.",
+      images: 'pictures/tmnm_small.png',
+      url: 'https://markdown-prill.herokuapp.com/',
+      github: 'https://github.com/stephenprill/markdown-editor'
     }];
   }
 });

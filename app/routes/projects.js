@@ -27,20 +27,20 @@ export default Ember.Route.extend({
       github: 'https://github.com/stephenprill/ember-notes'
     },
     {
-      id: 4,
-      name: "Rantly",
-      description: "Rantly is a Twitter clone built in Rails where user requires over 140 characters in order to post a rant.",
-      images: 'pictures/rantly_small.png',
-      url: 'https://rantly-prill.herokuapp.com',
-      github: 'https://github.com/stephenprill/rantly'
-    },
-    {
       id: 5,
       name: "Teenage Mutant Ninja Mardown",
       description: "Teenage Mutant Ninja Markdown is an Ember application that live markdown editor that renders HTML in real-time built in Ember.",
       images: 'pictures/tmnm_small.png',
       url: 'https://markdown-prill.herokuapp.com/',
       github: 'https://github.com/stephenprill/markdown-editor'
+    },
+    {
+      id: 4,
+      name: "Rantly",
+      description: "Rantly is a Twitter clone built in Rails that requires users to type over 140 characters in order to post a rant.",
+      images: 'pictures/rantly_small.png',
+      url: 'https://rantly-prill.herokuapp.com',
+      github: 'https://github.com/stephenprill/rantly'
     }];
   }
 });

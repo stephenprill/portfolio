@@ -104,7 +104,8 @@ li {
   margin-top: -7px;
   margin-left: -10px;
   margin-right: -10px;
-  margin-bottom: 120px;  
+  margin-bottom: 120px;
+  padding-bottom: .015px
 
 
 }
@@ -112,13 +113,13 @@ li {
 .navtop {
   top: 0;
   left: 0;
-  max-width: 1307px;
   height: 50px;
   background: rgba(0, 0, 0, 0.000001);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 12px;
+
 }
 
 .navtop-menu-links {
@@ -128,7 +129,8 @@ li {
   letter-spacing: .25em;
   margin-top: 12px;
   float: left;
-  max-width: 1307px;
+  margin-left: 31px;
+  margin-right: auto;
 }
 
 .navfooter {
@@ -146,7 +148,7 @@ li {
 
 .main {
   height: auto;
-  max-width: 1302px;
+  max-width: 1307px;
   padding: 20px;
 
   margin-left: auto;

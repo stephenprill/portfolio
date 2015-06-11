@@ -3,6 +3,34 @@
 @import url(//fonts.googleapis.com/css?family=Lato);
 @import url(//fonts.googleapis.com/css?family=Raleway);
 
+
+/* */
+
+@media (max-width: 650px) {
+
+  body {
+    display: block;
+  }
+
+  .main {
+      font-size: 10px;
+      height: auto;
+    }
+
+  .navtop {
+    margin: 0 auto;
+    height: 50px;
+    padding: 10px 0 5px 0;
+    margin-bottom: 25px;
+    min-width: 463px;
+
+  }
+
+  .navfooter {
+    opacity: 0;
+  }
+}
+
 /* GRID */
 
 *, *:before, *:after {

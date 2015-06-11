@@ -8,11 +8,15 @@
 
 @media (max-width: 650px) {
 
-  ul {
-    font-size: 18px;
-    text-align: center;
+  .main{
+    font-size:10px;
+    height:auto
   }
 
+  ul {
+    font-size: 14px;
+    text-align: center;
+  }
 
   .navtop {
     margin: 0 auto;
@@ -20,13 +24,11 @@
     padding: 10px 0 5px 0;
     margin-bottom: 25px;
     min-width: 463px;
-
   }
 
   .navfooter {
     opacity: 0;
   }
-
 }
 
 /* GRID */

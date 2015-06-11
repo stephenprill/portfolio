@@ -1,7 +1,5 @@
 <div class="main">
 
-  <div class="project-container">
-
     {{#each project in model}}
       <a {{bind-attr href=project.url}} target="_blank">
           <img class="project-picture"{{bind-attr src=project.images}}/>
@@ -31,8 +29,6 @@
       <br><br>
     {{/each}}
 
-
-  </div>
 
 </div>
 

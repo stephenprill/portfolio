@@ -28,7 +28,7 @@ export default Ember.Route.extend({
     },
     {
       id: 5,
-      name: "Teenage Mutant Ninja Mardown",
+      name: "Teenage Mutant Ninja Markdown",
       description: "Teenage Mutant Ninja Markdown is an Ember application that live markdown editor that renders HTML in real-time built in Ember.",
       images: 'pictures/tmnm_small.png',
       url: 'https://markdown-prill.herokuapp.com/',

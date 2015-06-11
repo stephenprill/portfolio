@@ -8,14 +8,11 @@
 
 @media (max-width: 650px) {
 
-  body {
-    display: block;
+  ul {
+    font-size: 18px;
+    text-align: center;
   }
 
-  .main {
-      font-size: 10px;
-      height: auto;
-    }
 
   .navtop {
     margin: 0 auto;
@@ -29,6 +26,7 @@
   .navfooter {
     opacity: 0;
   }
+
 }
 
 /* GRID */

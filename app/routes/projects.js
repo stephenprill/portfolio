@@ -21,7 +21,7 @@ export default Ember.Route.extend({
     {
       id: 3,
       name: "Local Notes",
-      description: "Local Notes has an Ember CLI frontend and Rails API backend and allows user to store local notes on your computer.",
+      description: "Local Notes has an Ember CLI front end and Rails API backend and allows users to store notes locally on their computer.",
       images: 'pictures/localnotes_small.png',
       url: 'https://localnotes.herokuapp.com/notes',
       github: 'https://github.com/stephenprill/ember-notes'
@@ -29,7 +29,7 @@ export default Ember.Route.extend({
     {
       id: 5,
       name: "Teenage Mutant Ninja Markdown",
-      description: "Teenage Mutant Ninja Markdown is an Ember application that live markdown editor that renders HTML in real-time built in Ember.",
+      description: "Teenage Mutant Ninja Markdown is an Ember application and live markdown editor that renders HTML in real-time",
       images: 'pictures/tmnm_small.png',
       url: 'https://markdown-prill.herokuapp.com/',
       github: 'https://github.com/stephenprill/markdown-editor'

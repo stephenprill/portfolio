@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio for Stephen Prill, the First of His Name, King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm.
+Portfolio for Stephen Prill, the First of His Name, King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm:
 
 [http://www.stephenprill.com](http://www.stephenprill.com)
 

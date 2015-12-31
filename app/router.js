@@ -9,7 +9,9 @@ Router.map(function() {
   this.resource('projects', function() {
     this.resource('project', { path:'/:project_id' });
   });
-  this.route('resume');
+  this.route("linkedin", {
+        path: "www.google.com"
+    });
 });
 
 

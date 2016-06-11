@@ -13,7 +13,7 @@ export default Ember.Route.extend({
     {
       id: 2,
       name: "gCamp",
-      description: "gCamp is a Basecamp clone built in Ruby on Rails with Twitter Bootstrap, postgreSQL, and Pivotal Tracker APIz",
+      description: "gCamp is a Basecamp clone built in Ruby on Rails with Twitter Bootstrap, postgreSQL, and Pivotal Tracker API.",
       images: 'pictures/gcamp_small.png',
       url: 'https://gcamp-prill.herokuapp.com',
       github: 'https://github.com/stephenprill/gCamp'

@@ -16,18 +16,32 @@
   ul {
     font-size: 13.5px;
     text-align: center;
+    float: none;
   }
 
   .navtop {
     margin: 0 auto;
     height: 50px;
     padding: 10px 0 5px 0;
-    margin-bottom: 25px;
-    min-width: 368px;
+    min-width: 320px;
+  }
+
+  .navtop-menu-links {
+    float: none !important;
+    font-family: 'Raleway';
+    font-size: 25px;
+    letter-spacing: .25em;
   }
 
   .navfooter {
     opacity: 0;
+  }
+
+  .home-title-name {
+    font-size: 5.0em !important;
+  }
+  .home-title-title {
+    font-size: 3.5em !important;
   }
 }
 
@@ -111,7 +125,7 @@ li {
 .home-title-name {
   padding-top: 45px;
   font-family: 'Lato', sans-serif;
-  font-size: 7.0em;
+  font-size: 6.0em;
   text-align: center;
   color: white;
 }
@@ -164,8 +178,8 @@ li {
 
 /* RESUME */
 
-.resume-image {
+/*.resume-image {
   max-width: 100%;
   opacity: 0.9995;
 
-}
+}*/
